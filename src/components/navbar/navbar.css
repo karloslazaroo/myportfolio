@@ -1,0 +1,28 @@
+    .navbar{
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    padding: 25px 40px 25px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    }
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar ul a {
+    color: #2d2e32;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .23s;
+}
